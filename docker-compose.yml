@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   jenkins:
+    restart: always
     container_name: jenkins-me
     image: jenkins/jenkins:latest
     ports:
